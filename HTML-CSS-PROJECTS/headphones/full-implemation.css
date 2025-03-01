@@ -1,0 +1,213 @@
+:root{
+  --textsize:13px;
+  --textweight:110;
+}
+@font-face {
+  font-family:sourcesanpro ;
+  src: url(fonts/SourceSans3-VariableFont_wght.ttf);
+
+
+
+  
+
+}
+body {
+  font-family: sourcesanpro;
+}
+header {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  color: white;
+  padding-top: 0px;
+  font-family: sourcesanpro;
+}
+.hero {
+  text-align: center;
+  background-image: url(images/headphones_hero_1.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+  color: white;
+  font-family: sourcesanpro;
+
+  
+}
+header {
+	padding: 5px 0;
+	height: 80px;
+	
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  color: white;
+}
+header li {
+	display: inline;
+	vertical-align:middle;
+  color: white;
+}
+header li:first-child {
+	margin: 0;
+}
+header li a {
+	margin: 0 10px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight:550;
+	font-family: sourcesanpro;
+}
+p {
+  font-size:var(--textsize) ;
+	font-weight:var(--textweight)
+	
+
+	 }
+
+
+
+  
+.hero-text {
+  padding-top: 120px;
+  
+}
+.logo {
+  width: 150px;
+}
+button{
+  border-radius: 40px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0 , 0.20),2px 2px 2px 2px rgba(0, 0, 0 , 0.20);
+  width: 130px;
+  height: 35px; 
+  background-color:#FF6565 ;
+  color:white ;
+  font-family: sourcesanpro;
+  margin-top:50px ;
+  margin-bottom:80px ;
+}
+button:hover{
+  opacity: 0.9;
+}
+a:hover{
+  color: #FF6565;
+}
+.hero-text h5 {
+	font-size: 15px;
+	font-weight: bold;
+}
+ a{
+  color: white;
+ }   
+	
+
+
+
+
+
+.what-we-do{
+  text-align: center;
+  font-family: sourcesanpro;
+ 
+}
+.media-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:60px;
+  
+}
+.media{
+  
+justify-content: center;
+  
+  
+}
+.media-section h5{
+font-size: small;
+}
+.media-section p{
+  font-size: small;
+}
+
+
+.hero2{
+  text-align: center;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size:cover ;
+  padding-top:100px ;
+  padding-bottom: 100px;
+  color: white;
+  margin-top: 50px;
+}
+
+  
+
+.pentagone-sec {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding-left:50px ;
+    padding-right:50px ;
+    
+}
+.pentagone{
+  width: 150px;
+  height: 130px;
+  
+  align-self: center;
+  align-items: center;
+  padding-top: 25px;
+  background-image: url(images/pentagone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
+
+
+.pentagone h2{
+
+  margin-bottom: 0px;
+}
+
+.icon-container{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  
+    
+  }
+  .logo{
+    width: 100px;
+  
+  }
+  .footer-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+   padding-left: 150px;
+   padding-right: 150px;
+   padding-top: 50px;
+   color: white;
+  }
+  #copyrights{
+    color: grey;
+    justify-items: center;
+    padding-top:50px;
+    margin-top:50px;
+    padding-bottom: 50px;
+    font-family:sourcesanpro;
+  }
+  footer{
+    text-align: center;
+    background-color: rgb(0, 0, 46);
+    
+  }

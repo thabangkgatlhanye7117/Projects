@@ -1,0 +1,1 @@
+Styling a website to make it look readable and user friendlyand responsive 

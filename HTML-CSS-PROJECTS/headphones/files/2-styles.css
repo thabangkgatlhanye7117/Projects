@@ -1,0 +1,57 @@
+:root{
+  --textsize:13px;
+  --textweight:110;
+}
+@font-face {
+  font-family:sourcesanpro ;
+  src: url(fonts/SourceSans3-VariableFont_wght.ttf);
+
+@font-face {
+  font-family:spincycle ;
+  src: url(fonts/SPINC__.TTF);
+ }
+
+  
+
+}
+body {
+  font-family: sourcesanpro;
+}
+
+.hero2{
+  text-align: center;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size:cover ;
+  padding-top:100px ;
+  padding-bottom: 100px;
+  color: white;
+  margin-top: 50px;
+}
+
+  
+
+.pentagone-sec {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding-left:50px ;
+    padding-right:50px ;
+    
+}
+.pentagone{
+  width: 150px;
+  height: 130px;
+  
+  align-self: center;
+  align-items: center;
+  padding-top: 25px;
+  background-image: url(images/pentagone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  
+
+
+
+
+  

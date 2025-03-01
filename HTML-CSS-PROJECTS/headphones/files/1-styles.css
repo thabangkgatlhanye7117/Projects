@@ -1,0 +1,44 @@
+:root{
+  --textsize:13px;
+  --textweight:110;
+}
+@font-face {
+  font-family:sourcesanpro ;
+  src: url(fonts/SourceSans3-VariableFont_wght.ttf);
+
+
+
+  
+
+}
+body {
+  font-family: sourcesanpro;
+
+  padding-top: 20px;
+}
+
+
+.what-we-do{
+  text-align: center;
+  font-family: sourcesanpro;
+ 
+}
+.media-section{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:60px;
+  
+}
+.media{
+  
+justify-content: center;
+  
+  
+}
+h5{
+font-size: small;
+}
+p{
+  font-size: small;
+}

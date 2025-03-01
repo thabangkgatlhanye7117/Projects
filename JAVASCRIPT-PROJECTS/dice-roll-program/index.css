@@ -1,0 +1,26 @@
+body{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#dice-container{
+      text-align: center;
+      padding: 50px;
+
+
+}
+
+#numLabel1,  #numLabel2{
+font-size:5em ;
+
+}
+
+#roll-btn{
+  border:none;
+  background-color: rgb(14, 4, 24);
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  color: antiquewhite;
+  margin: 10px;
+
+}
