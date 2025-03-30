@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Javascript",
+    "description" : "",
+    "duration" : "Approximately 3 months",
+    "concepts" : "12",
+    "image" : ""
+    
+  },
+  {
+    "id": 2,
+    "name": "Python",
+    "description" : "",
+    "duration" : "Approximately 3 months",
+    "concepts" : "10",
+    "image" : ""
+    
+  },
+  {
+    "id": 3,
+    "name": "C++",
+    "description" : "",
+    "duration" : "Approximately 8 weeks",
+    "concepts" : "12",
+    "image" : ""
+    
+  },
+  {
+    "id": 4,
+    "name": "Swift",
+    "description" : "",
+    "duration" : "Approximately 4 weeks",
+    "concepts" : "7",
+    "image" : ""
+    
+  },
+  {
+    "id": 5,
+    "name": "Go",
+    "description" : "",
+    "duration" : "Approximately 2 weeks",
+    "concepts" : "9",
+    "image" : ""
+    
+  },
+  {
+    "id": 6,
+    "name": "Java",
+    "description" : "",
+    "duration" : "",
+    "concepts" : "8",
+    "image" : ""
+    
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Visual Studio Code",
+    "description" : "",
+    "duration" : "Approximately 3 months",
+    "modules" : "12",
+    "image" : ""
+    
+  },
+  {
+    "id": 2,
+    "name": "Google Slides",
+    "description" : "",
+    "duration" : "Approximately 3 months",
+    "modules" : "10",
+    "image" : ""
+    
+  },
+  {
+    "id": 3,
+    "name": "Zoom",
+    "description" : "",
+    "duration" : "Approximately 8 weeks",
+    "modules" : "12",
+    "image" : ""
+    
+  },
+  {
+    "id": 4,
+    "name": "Figma",
+    "description" : "",
+    "duration" : "Approximately 4 weeks",
+    "modules" : "7",
+    "image" : ""
+    
+  },
+  {
+    "id": 5,
+    "name": "Google Sheet",
+    "description" : "",
+    "duration" : "Approximately 2 weeks",
+    "modules" : "9",
+    "image" : ""
+    
+  },
+  {
+    "id": 6,
+    "name": "Github",
+    "description" : "",
+    "duration" : "",
+    "modules" : "8",
+    "image" : ""
+    
+  }
+]
