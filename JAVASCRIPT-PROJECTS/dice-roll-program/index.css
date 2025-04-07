@@ -1,6 +1,7 @@
 body{
 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
 }
 #dice-container{
       text-align: center;
@@ -23,4 +24,25 @@ font-size:5em ;
   color: antiquewhite;
   margin: 10px;
 
+}
+.platform-container{
+  display: grid;
+  grid-column: 5;
+  grid-row: 5;
+  gap: 5;
+  background-color:grey;
+  height:200px;
+  width: 400px;
+  border: 2px solid black;
+}
+#platform1{
+background-color: blue;
+
+}
+
+#blocks{
+  width: 300px;
+  height: 100px; 
+  background-color:grey ;
+  z-index: 10;
 }

@@ -3,13 +3,14 @@ const Footer = () => {
 
   return (
 
-        <footer>
-            <div class='flex bg-neutral-500 h-10 items-center'>
-                <p class='font-medium font-san text-white'> 2025 BULLASOFT.DEV</p>
+        <footer> 
+
+            <div className=' bg-neutral-500 h-10 '>
+                <p className='font-medium text-center font-san text-white'> &copy;2025 BULLASOFT.DEV. ALL RIGHTS RESERVED.</p>
             </div>
 
         </footer>
-  )
+  );
 }
 
 export default Footer

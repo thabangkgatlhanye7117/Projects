@@ -2,55 +2,55 @@
   {
     "id": 1,
     "name": "Visual Studio Code",
-    "description" : "",
+    "tasks" : "50",
     "duration" : "Approximately 3 months",
-    "modules" : "12",
-    "image" : ""
+    "lessons" : "12",
+    "image" : "src/assets/images-icons/vscode.jpeg"
     
   },
   {
     "id": 2,
-    "name": "Google Slides",
-    "description" : "",
+    "name": "SQL",
+    "tasks" : "83",
     "duration" : "Approximately 3 months",
-    "modules" : "10",
-    "image" : ""
+    "lessons" : "15",
+    "image" : "src/assets/images-icons/sql.png"
     
   },
   {
     "id": 3,
-    "name": "Zoom",
-    "description" : "",
+    "name": "Tailwind",
+    "tasks" : "40",
     "duration" : "Approximately 8 weeks",
-    "modules" : "12",
-    "image" : ""
+    "lessons" : "12",
+    "image" : "src/assets/images-icons/tailwind.png"
     
   },
   {
     "id": 4,
     "name": "Figma",
-    "description" : "",
+    "tasks" : "32",
     "duration" : "Approximately 4 weeks",
-    "modules" : "7",
-    "image" : ""
+    "lessons" : "7",
+    "image" : "src/assets/images-icons/figma.png"
     
   },
   {
     "id": 5,
     "name": "Google Sheet",
-    "description" : "",
+    "tasks" : "17",
     "duration" : "Approximately 2 weeks",
-    "modules" : "9",
-    "image" : ""
+    "lessons" : "9",
+    "image" : "src/assets/images-icons/googlesheet.png"
     
   },
   {
     "id": 6,
     "name": "Github",
-    "description" : "",
+    "tasks" : "15",
     "duration" : "",
-    "modules" : "8",
-    "image" : ""
+    "lessons" : "10",
+    "image" : "src/assets/images-icons/github.png"
     
   }
 ]

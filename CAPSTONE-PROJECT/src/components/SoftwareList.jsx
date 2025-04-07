@@ -4,20 +4,21 @@ const SoftwareList = () => {
 
 
     return(
-      <section id='popular-software'class='p-10 font-sans mt-20 pt-[100px]'>
-          <h1 class='text-center p-5 text-2xl font-semibold'>Popular Softwares</h1>
-          <div class ='grid  grid-cols-3  gap-10 h-[400px] p-16 relative mb-5 max-md:grid-cols-1 '>
+      <section id='popular-software'class='bg-blue-200 p-10 font-sans mt-20 pt-[50px]'>
+          <h1 className='text-center p-5 text-2xl font-semibold'>Popular Softwares</h1>
+          <div className ='w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap h-[520px] p-16  mb-5   max-md:h-[520px] '>
 
                {
                   Softwares.map(software =>{
                       return(
               
-                            <div class='h-[200px] w-[380px] border-none p-10 ring-2 ring-neutral-200 rounded-lg font-san hover:shadow-2xl'key={software.id}>
- 
+                            <div className='h-full w-[300px] mx-3 inline-block border-none bg-neutral-100 p-10 ring-2 ring-neutral-200 rounded-lg font-san hover:shadow-2xl contain-content'key={software.id}>
+                                    <div class='w-[220px] h-[220px] mb-3 contain-content'> 
+                                    <img src={software.image} alt='software-logo'/>
+                                    </div>
                                   <p><span className='font-medium'>Name:</span> {software.name}</p>
-                                  <br/>
-                                  <p><span className='font-medium'>Description:</span> {software.description}</p>
-                                  <p><span className='font-medium'>Number of modules:</span> {software.modules}</p>
+                                  <p><span className='font-medium'>Lessons:</span> {software.lessons}</p>
+                                  <p><span className='font-medium'>Tasks:</span> {software.tasks}</p>
                                   <p><span className='font-medium'>Duration:</span> {software.duration}</p>
                                   
 

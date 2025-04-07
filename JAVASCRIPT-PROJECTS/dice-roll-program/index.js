@@ -17,7 +17,10 @@ rollBtN.onclick = () => {
     specialResult.textContent = "Krap"
 
   } else {
+
     specialResult.textContent = "Roll Again"
-  }
+  } 
+
+
 
 }

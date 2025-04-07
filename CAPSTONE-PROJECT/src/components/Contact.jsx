@@ -2,23 +2,24 @@
 const Contact = () => {
 
     return(
-      <section id='contact' class='flex justify-center h-[400px] p-10 contain-content '>
+      <section id='contacts' className='flex justify-center h-[400px] p-10 contain-content '>
       
           
-          <div class=' p-10 w-[500px] h-[300px] shadow-2xl ring-neutral-500'>
+          <div className=' p-10 w-[500px] h-[300px] shadow-2xl ring-neutral-500'>
+
             <div>
-            <p class='text-lg text-center font-bold'>Social Media</p>
-            <div class='flex gap-10 mt-5 justify-center'>
-                <img class='w-10 h-10 ' src ='src/assets/fonts/facebook-brands-solid.svg'/>
-                <img class='w-10 h-10 ' src ='src/assets/fonts/linkedin.png'/>
-                <img class='w-10 h-10 ' src ='src/assets/fonts/instagram-brands-solid.svg'/>
-                <img class='w-10 h-10 ' src ='src/assets/fonts/twitter-brands-solid.svg'/>
+            <p className='text-lg text-center font-bold'>Social Media</p>
+            <div className='flex gap-10 mt-5 justify-center'>
+                <a href='#'><img className='w-10 h-10 ' src ='src/assets/fonts/facebook-brands-solid.svg' alt='facebook-logo'/></a>
+                <a href='#'><img className='w-10 h-10 ' src ='src/assets/fonts/linkedin.png' alt='facebook-logo'/></a>
+                <a href='#'><img className='w-10 h-10 ' src ='src/assets/fonts/instagram-brands-solid.svg' alt='instagram-logo'/></a>
+                <a href='#'><img className='w-10 h-10 ' src ='src/assets/fonts/twitter-brands-solid.svg' alt='twitter-logo'/></a>
             </div>
             </div>
-            <div class='pt-10'>
-            <p class='text-lg font-bold mt-5'>Email:   <span class='font-medium'>bullasoft7117@gmail.com</span> </p>
+            <div className='pt-10'>
+            <p className='text-lg font-bold mt-5'>Send an Email:   <span className='font-medium'><a href='mailto:bullasoft7117@gmail.com'>bullasoft7117@gmail.com</a></span> </p>
           
-            <p class='text-lg font-bold '>Tel:   <span class='font-medium'>011-990-3943</span></p>
+            <p className='text-lg font-bold '>Tel:   <span className='font-medium'>011-990-3943</span></p>
             
             </div>
           </div>
