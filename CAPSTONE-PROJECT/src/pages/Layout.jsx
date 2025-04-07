@@ -1,8 +1,10 @@
 
 import Footer from "../components/Footer"
+import { useState } from "react"
 import { Link, Outlet } from "react-router-dom"
 
 const Layout = () => {
+  const [isMenuOpen, setIsMenuOpen]= useState(false)
   return (
 <>
 <div class='fixed top-0 z-10 w-full'>
@@ -21,9 +23,29 @@ const Layout = () => {
                   </div>
                   <Link to ='/logIn' ><p class= 'text-white hover:text-red-600 font-semibold max-sm:hidden'>LOGIN</p></Link>
                   <Link to ='/logIn' ><img class='object-contain h-5  md:hidden ' src='src/assets/images-icons/profile.jpg'/></Link>
-                  <button onClick='toggleMenu()'><img class='object-contain h-5  md:hidden ' src='src/assets/images-icons/hamburger.jpg'/></button>
+                  <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                    <img class='object-contain h-5  md:hidden ' src='src/assets/images-icons/hamburger.jpg' alt='hamburger-menu'/>
+                  </button>
               </div> 
- 
+              <div className={`absolute xl:hidden top-20 left-0 w-full bg-white flex flex-col
+                              items-center gap-6 font-semibold text-lg transform transition-transform
+                              ${isMenuOpen ? 'opacity-100':'opacity-0'}`}
+                              style={{transition: 'transform 0.3s ease, opacity 0.3s ease'}}>
+
+                                <li className='list-none w-full text-center p-4 hover:bg-red-600 hover:text-black
+                                transition-all cursor-pointer'>HOME</li>
+
+                                <li className='list-none w-full text-center p-4 hover:bg-red-600 hover:text-black
+                                transition-all cursor-pointer'>NEWS</li>
+
+                                <li className='list-none w-full text-center p-4 hover:bg-red-600 hover:text-black
+                                transition-all cursor-pointer'>TUTORIAL</li>
+
+                                <li className='list-none w-full text-center p-4 hover:bg-red-600 hover:text-black
+                                transition-all cursor-pointer'>COMMUNITY</li>
+
+              </div>
+
      </header>
          
 <nav class='flex bg-black h-10 items-center px-20 max-md:hidden  '>
