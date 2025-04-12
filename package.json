@@ -1,0 +1,19 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "Here's my journey in the form of code.\r Thoughout my introduction to coding at ALX I've worked on different aspects of Front-End Development and learned various technical skills and best practices using  Javascript, Vanilla HTML, Tailwind CSS and React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thabangkgatlhanye7117/Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thabangkgatlhanye7117/Projects/issues"
+  },
+  "homepage": "https://github.com/thabangkgatlhanye7117/Projects#readme"
+}
